@@ -1,0 +1,41 @@
+This java script sorts nested lists in alphabetical order that are structured with tabs in the form:
+
+list1
+	sublist1
+		item1
+		item2
+		item3
+		...
+	sublist2
+		item1
+		item2
+		item3
+		...
+	sublist3
+		item1
+		item2
+		item3
+		...
+	
+list2
+	sublist1
+		item1
+		item2
+		item3
+		...
+	sublist2
+		item1
+		item2
+		item3
+		...
+	sublist3
+		item1
+		item2
+		item3
+		...
+...
+... Etc.
+
+
+To execute the script in linux in the same directory as sort.class use:
+	java -cp ../ sort_tabed_list.sort [input.text] [optional-output.text]
